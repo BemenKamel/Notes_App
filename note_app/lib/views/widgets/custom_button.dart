@@ -9,16 +9,18 @@ class CustomButton extends StatelessWidget {
     return Container(
       height: 55,
       width: MediaQuery.of(context).size.width,
-      color: KPColor,
       decoration: BoxDecoration(
+        color: KPColor,
         borderRadius: BorderRadius.circular(8),
       ),
-      child: Text(
-        'Add',
-        style: TextStyle(
-          fontSize: 20,
-          color: Colors.black,
-          fontWeight: FontWeight.bold,
+      child: Center(
+        child: Text(
+          'Add',
+          style: TextStyle(
+            fontSize: 20,
+            color: Colors.black,
+            fontWeight: FontWeight.bold,
+          ),
         ),
       ),
     );
